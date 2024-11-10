@@ -1,0 +1,80 @@
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
+.navbar {
+  background-color: #2b2d42 !important;
+}
+.navbar-nav .nav-link {
+  color: #edf2f4 !important;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+.navbar-nav .nav-link:hover {
+  color: #8d99ae !important;
+}
+
+.carousel-caption h5 {
+  color: #edf2f4;
+  font-size: 48px;
+  font-weight: bold;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+.carousel-caption .btn {
+  background-color: #ef233c;
+  border: none;
+  font-weight: bold;
+  padding: 10px 20px;
+}
+.carousel-caption .btn:hover {
+  background-color: #d90429;
+}
+
+.content {
+  background-color: #edf2f4;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+}
+.content p {
+  color: #2b2d42;
+  font-size: 18px;
+}
+
+#contact {
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+}
+#contact label {
+  font-weight: bold;
+  color: #2b2d42;
+}
+#contact textarea,
+#contact input {
+  border: 1px solid #8d99ae;
+}
+#contact button {
+  background-color: #ef233c;
+  color: white;
+  border: none;
+}
+#contact button:hover {
+  background-color: #d90429;
+}
+
+.footer-main {
+  background-color: #2b2d42;
+  color: #edf2f4;
+}
+.footer-main h2 {
+  font-weight: 600;
+}
+.footer-main a {
+  color: #8d99ae;
+  transition: color 0.3s ease;
+}
+.footer-main a:hover {
+  color: #ef233c;
+}
